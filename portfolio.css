@@ -633,7 +633,7 @@ span {
 }
 
 .home-img img {
-  width: 70vw; /* Adjust image width for responsiveness */
+  width: 500vw; /* Adjust image width for responsiveness */
   margin: 1rem 0; /* Adjust margins for spacing */
 }
   .services h2 {
