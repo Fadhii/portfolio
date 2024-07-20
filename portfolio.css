@@ -644,7 +644,7 @@ span {
 }
   .services h2 {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .services-container {
     grid-template-columns: 1fr;
@@ -653,6 +653,7 @@ span {
   .service-box {
     padding: 1rem;
     margin:1rem;
+    width:fit-content;
   }
   .projects .heading {
     font-size: 3rem;
