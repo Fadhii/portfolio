@@ -610,11 +610,13 @@ span {
   flex-direction: column-reverse; /* Maintain column layout on mobile */
   align-items: center; /* Center align items horizontally */
   text-align: center; /* Center align text inside */
-  padding: 4rem; /* Adjust padding for spacing */
+  padding-left:8rem; /* Adjust padding for spacing */
 }
   .home-content {
   margin-top: 3rem; /* Adjust top margin for spacing */
   text-align: center; /* Center align text */
+  margin-left:4rem;
+  padding-left:4rem
 }
 
 .home-content h3 {
