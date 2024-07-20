@@ -576,7 +576,7 @@ span {
     padding: 2rem 3%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   #menu-icon {
     display: block;
   }
