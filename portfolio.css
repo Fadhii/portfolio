@@ -710,4 +710,9 @@ span {
     border: 1px solid var(--main-color);
     box-shadow: 0 0 10px var(--main-color);
   }
+.education {
+  padding: 100px;
+  background: var(--second-bg-color);
+width :100%
+}
 }
