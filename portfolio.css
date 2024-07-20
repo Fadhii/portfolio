@@ -613,6 +613,9 @@ span {
   .home-content h3 {
     font-size: 2.6rem;
   }
+  .home-content{
+    margin-left:3rem
+  }
   .home-content h1 {
     font-size: 3.5rem;
     margin-top: 1.5rem;
@@ -640,6 +643,7 @@ span {
   .projects .heading {
     font-size: 3rem;
     margin-bottom: 2rem;
+    margin:1rem;
   }
   .projects-box img {
     width: 70vw;
