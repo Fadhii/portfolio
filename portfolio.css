@@ -609,6 +609,8 @@ span {
   .home {
     flex-direction: column-reverse;
     margin: 2rem 1rem;
+    margin-left:5rem;
+    padding:4rem;
   }
   .home-content h3 {
     font-size: 2.6rem;
