@@ -607,30 +607,35 @@ span {
     text-align: left;
   }
   .home {
-    flex-direction: column-reverse;
-    margin: 2rem 1rem;
-    margin-left:5rem;
-    padding:4rem;
-  }
-  .home-content h3 {
-    font-size: 2.6rem;
-  }
-  .home-content{
-    margin-left:3rem
-  }
-  .home-content h1 {
-    font-size: 3.5rem;
-    margin-top: 1.5rem;
-  }
-  .home-content p {
-    max-width: 100%;
-    margin: 1rem 0;
-    font-size: 1.4rem;
-  }
-  .home-img img {
-    width: 70vw;
-    margin: 1rem 0;
-  }
+  flex-direction: column-reverse; /* Maintain column layout on mobile */
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text inside */
+  padding: 4rem; /* Adjust padding for spacing */
+}
+  .home-content {
+  margin-top: 3rem; /* Adjust top margin for spacing */
+  text-align: center; /* Center align text */
+}
+
+.home-content h3 {
+  font-size: 2.6rem; /* Adjust font size for smaller screens */
+}
+
+.home-content h1 {
+  font-size: 3.5rem; /* Maintain large font size for main heading */
+  margin-top: 1.5rem; /* Adjust top margin for spacing */
+}
+
+.home-content p {
+  max-width: 100%; /* Ensure text spans full width */
+  margin: 1rem 0; /* Adjust margins for spacing */
+  font-size: 1.4rem; /* Adjust font size for smaller screens */
+}
+
+.home-img img {
+  width: 70vw; /* Adjust image width for responsiveness */
+  margin: 1rem 0; /* Adjust margins for spacing */
+}
   .services h2 {
     margin-bottom: 2rem;
     font-size: 3rem;
