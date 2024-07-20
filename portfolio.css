@@ -611,6 +611,7 @@ span {
   align-items: center; /* Center align items horizontally */
   text-align: center; /* Center align text inside */
   padding-left:8rem; /* Adjust padding for spacing */
+  width:100%;
 }
   .home-content {
   margin-top: 3rem; /* Adjust top margin for spacing */
@@ -638,9 +639,12 @@ span {
   width: 70vw; /* Adjust image width for responsiveness */
   margin: 1rem 0; /* Adjust margins for spacing */
 }
+.education {
+ width:100%;
+}
   .services h2 {
-    margin-bottom: 2rem;
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
   }
   .services-container {
     grid-template-columns: 1fr;
@@ -648,6 +652,7 @@ span {
   }
   .service-box {
     padding: 1rem;
+    margin:1rem;
   }
   .projects .heading {
     font-size: 3rem;
