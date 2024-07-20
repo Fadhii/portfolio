@@ -652,7 +652,7 @@ span {
     height:fit-content;
   }
 .service-info h4{
-    font-size: .5rem;
+    font-size: 1rem;
   }
 .service-info p{
     font-size:10px;
@@ -712,9 +712,4 @@ span {
     border: 1px solid var(--main-color);
     box-shadow: 0 0 10px var(--main-color);
   }
-.education {
-  padding: 50px;
-  background: var(--second-bg-color);
-width :100vw
-}
 }
