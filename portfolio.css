@@ -443,7 +443,7 @@ span {
   gap: 2rem;
 }
 .design-item {
-   padding: 20px 20px;
+  padding: 20px 20px;
   background: rgba(0, 0, 0, 0.7);
   border: 3px solid rgba(238, 238, 238, 0.2);
   border-radius: 2rem;
@@ -472,9 +472,8 @@ span {
 
 .design-item:hover,
 .poster-item:hover {
-  border: 3px solid var(--main-color);
+  border: 3px solid white;
   transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 0 50px var(--main-color);
 }
 .project-item {
   min-height: 350px;
