@@ -672,6 +672,7 @@ span {
     text-align: center;
     padding: 8rem 2rem 2rem;
     width: 100%;
+    gap: 1rem;
   }
 
   .home-content {
@@ -679,6 +680,10 @@ span {
     padding: 0;
     align-items: center;
     text-align: center;
+  }
+  .home-content h1,h3{
+    width:100%;
+    text-align: left;
   }
 
 
@@ -698,6 +703,7 @@ span {
 }
 
 .home-img img {
+  top:0;
   width: 70vw; /* Adjust image width for responsiveness */
   margin: 1rem 0; /* Adjust margins for spacing */
 }
