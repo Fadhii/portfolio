@@ -768,6 +768,11 @@ span {
     padding:1rem;
     width:fit-content;
   }
+  .text-animation {
+    min-width: auto;
+    width: 100%;
+  }
+
   .projects-box img {
     width: 30rem;
     border-radius: 5%;
