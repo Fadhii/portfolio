@@ -457,6 +457,13 @@ span {
   color: white;
   transition: 0.4s ease-in-out;
 }
+.poster-item {
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid rgba(238, 238, 238, 0.2);
+  border-radius: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
 .poster-item img {
   width: 100%;
   max-width: 300px;
@@ -629,6 +636,10 @@ span {
   }
 }
 @media (max-width: 600px) {
+  .poster-item img {
+    width: 100%;
+    max-width: 300px;
+  }
   #menu-icon {
     display: block;
   }
