@@ -780,6 +780,13 @@ span {
     min-width: auto;
     width: 100%;
   }
+  .projects-box:not(:last-child) {
+    margin-bottom: 7rem;
+  }
+
+  .projects-box .heading {
+    margin-bottom: 3rem;
+  }
 
   .projects-box img {
     width: 30rem;
