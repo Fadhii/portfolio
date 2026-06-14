@@ -7,6 +7,8 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
+  
+  outline: 1px solid red;
 }
 :root {
   --bg-color: #080808;
@@ -667,18 +669,21 @@ span {
     text-align: left;
   }
   .home {
-  flex-direction: column-reverse; /* Maintain column layout on mobile */
-  align-items: center; /* Center align items horizontally */
-  text-align: center; /* Center align text inside */
-  padding-left:8rem; /* Adjust padding for spacing */
-  width:100%;
-}
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8rem 2rem 2rem;
+    width: 100%;
+  }
+
   .home-content {
-  margin-top: 3rem; /* Adjust top margin for spacing */
-  text-align: center; /* Center align text */
-  margin-left:4rem;
-  padding-left:4rem
-}
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
 
 .home-content h3 {
   font-size: 2.6rem; /* Adjust font size for smaller screens */
