@@ -443,6 +443,7 @@ span {
   gap: 2rem;
 }
 .design-item {
+   padding: 20px 20px;
   background: rgba(0, 0, 0, 0.7);
   border: 3px solid rgba(238, 238, 238, 0.2);
   border-radius: 2rem;
@@ -462,8 +463,18 @@ span {
   height: 400px;
   object-fit: cover;
   border-radius: 1rem;
-  border: 1px solid var(--main-color);
-  box-shadow: 0 0 10px var(--main-color);
+  border: 1px solid white;
+}
+.design-item,
+.poster-item {
+  transition: 0.4s ease-in-out;
+}
+
+.design-item:hover,
+.poster-item:hover {
+  border: 3px solid var(--main-color);
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 50px var(--main-color);
 }
 .project-item {
   min-height: 350px;
